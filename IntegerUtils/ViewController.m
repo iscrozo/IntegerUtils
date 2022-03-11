@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-
+#import "IntegerUtils.h"
 @interface ViewController ()
 
 @end
@@ -15,6 +15,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [IntegerUtils printFirstNumber:20];
     // Do any additional setup after loading the view.
 }
 

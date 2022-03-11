@@ -14,6 +14,7 @@
 		7648051827DAF62E00722768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7648051727DAF62E00722768 /* Assets.xcassets */; };
 		7648051B27DAF62E00722768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7648051927DAF62E00722768 /* LaunchScreen.storyboard */; };
 		7648051E27DAF62E00722768 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7648051D27DAF62E00722768 /* main.m */; };
+		7648052727DAF6D100722768 /* IntegerUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 7648052627DAF6D100722768 /* IntegerUtils.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		7648051A27DAF62E00722768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7648051C27DAF62E00722768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7648051D27DAF62E00722768 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7648052527DAF6D100722768 /* IntegerUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntegerUtils.h; sourceTree = "<group>"; };
+		7648052627DAF6D100722768 /* IntegerUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntegerUtils.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		7648050A27DAF62D00722768 /* IntegerUtils */ = {
 			isa = PBXGroup;
 			children = (
+				7648052427DAF6B400722768 /* clase */,
 				7648050B27DAF62D00722768 /* AppDelegate.h */,
 				7648050C27DAF62D00722768 /* AppDelegate.m */,
 				7648050E27DAF62D00722768 /* SceneDelegate.h */,
@@ -74,6 +78,15 @@
 				7648051D27DAF62E00722768 /* main.m */,
 			);
 			path = IntegerUtils;
+			sourceTree = "<group>";
+		};
+		7648052427DAF6B400722768 /* clase */ = {
+			isa = PBXGroup;
+			children = (
+				7648052527DAF6D100722768 /* IntegerUtils.h */,
+				7648052627DAF6D100722768 /* IntegerUtils.m */,
+			);
+			path = clase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7648052727DAF6D100722768 /* IntegerUtils.m in Sources */,
 				7648051327DAF62D00722768 /* ViewController.m in Sources */,
 				7648050D27DAF62D00722768 /* AppDelegate.m in Sources */,
 				7648051E27DAF62E00722768 /* main.m in Sources */,
