@@ -10,15 +10,11 @@
 @implementation IntegerUtils
     
 +(void) printFirstNumber:(int)n {
-    for ( int i=1; i<=n ; i++){
-        NSLog(@"%d", i);
-    }
+    [self printNumbersFrom:1 to:n];
 }
 
 +(void)printCountDown:(int)n{
-    for (int i = n; n >= 0; i--) {
-        NSLog(@"%d", i);
-    }
+    [self printNumbersFrom:n to:0];
 }
 
 +(void)printNumbersFrom:(int)n to:(int)m{
