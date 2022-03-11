@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface IntegerUtils : NSObject
 +(void) printFirstNumber:(int)n;
 +(void)printCountDown:(int)n;
++(void)printNumbersFrom:(int)n to:(int)m;
 @end
 
 NS_ASSUME_NONNULL_END
