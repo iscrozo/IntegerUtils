@@ -16,6 +16,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [IntegerUtils printFirstNumber:20];
+    
+    [IntegerUtils printCountDown:10];
     // Do any additional setup after loading the view.
 }
 

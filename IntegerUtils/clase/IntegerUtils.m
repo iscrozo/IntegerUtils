@@ -15,4 +15,10 @@
     }
 }
 
++(void)printCountDown:(int)n{
+    for (int i = n; n >= 0; i--) {
+        NSLog(@"%d", i);
+    }
+}
+
 @end
