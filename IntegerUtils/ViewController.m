@@ -19,6 +19,11 @@
     
     [IntegerUtils printCountDown:10];
     // Do any additional setup after loading the view.
+    
+    NSLog(@" - - - ");
+    [IntegerUtils factorial:8];
+    NSLog(@" - - - ");
+    [IntegerUtils factorial:100];
 }
 
 

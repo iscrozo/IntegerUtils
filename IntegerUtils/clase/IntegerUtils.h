@@ -13,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 +(void) printFirstNumber:(int)n;
 +(void)printCountDown:(int)n;
 +(void)printNumbersFrom:(int)n to:(int)m;
++(void)factorial:(int)n;
 @end
 
 NS_ASSUME_NONNULL_END

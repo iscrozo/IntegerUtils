@@ -29,4 +29,22 @@
     }
     
 }
+
++(void)factorial:(int)n{
+    if (n > 0){
+        int resultado = 1;
+        for (int i = 1 ; i<=n; i++){
+            resultado = resultado * i ;
+            if (resultado == 0) {
+                NSLog(@"El valor de %d! es demasiado grande para ser calculado.....", n);
+                break;
+            }
+        }
+        if (resultado != 0 ){
+            NSLog(@"%d! = %d", n, resultado);
+        }
+    } else {
+        NSLog(@"Para calcular el fatorial de un número, este debe ser un entero positivo");
+    }
+}
 @end
