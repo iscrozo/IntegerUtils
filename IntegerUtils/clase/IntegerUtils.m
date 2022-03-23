@@ -30,9 +30,9 @@
     
 }
 
-+(void)factorial:(int)n{
++(int)factorial:(int)n{
+    int resultado = 1;
     if (n > 0){
-        int resultado = 1;
         for (int i = 1 ; i<=n; i++){
             resultado = resultado * i ;
             if (resultado == 0) {
@@ -42,9 +42,12 @@
         }
         if (resultado != 0 ){
             NSLog(@"%d! = %d", n, resultado);
+            resultado = -1;
         }
     } else {
         NSLog(@"Para calcular el fatorial de un número, este debe ser un entero positivo");
+        resultado = -1;
     }
+    return resultado;
 }
 @end
